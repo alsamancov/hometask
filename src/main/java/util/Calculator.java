@@ -11,7 +11,6 @@ public class Calculator {
 
 
     public int method1() throws IOException {
-
         System.out.println("Enter length of array:");
         String strLength = bufferedReader.readLine();
         int length = Integer.parseInt(strLength);
